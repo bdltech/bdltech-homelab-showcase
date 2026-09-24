@@ -88,8 +88,15 @@ Infrastructure changes are documented alongside recovery notes, service maps, an
 
 - [Architecture overview](docs/architecture.md)
 - [Projects](docs/projects.md)
+- [Service catalog](docs/services.md)
+- [Showcase roadmap](docs/roadmap.md)
 - [Security and sanitization policy](SECURITY.md)
 - [Screenshot guide](assets/screenshots/README.md)
+- [Contributing / sanitization workflow](CONTRIBUTING.md)
+
+## Public-Safety Validation
+
+Every push and pull request runs a lightweight validation workflow designed for a public homelab repository. It checks for private IPv4 addresses, common secret-bearing files, credential-like assignments, and shell-script issues before changes are treated as clean.
 
 ## Public vs. Private Repositories
 
