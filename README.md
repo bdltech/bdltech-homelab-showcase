@@ -60,14 +60,30 @@ The diagram is intentionally logical rather than literal. Private addressing, cr
 ### JARVIS-style Hermes Agent appliance
 A dedicated Hermes Agent VM with a custom JARVIS-inspired dashboard, read-only Proxmox telemetry, external service health monitoring, and recovery-focused customization tracking.
 
+<p align="center">
+  <img src="assets/screenshots/jarvis-hud.png" alt="JARVIS HUD" width="90%" />
+</p>
+
+### Proxmox read-only monitoring
+A small helper layer designed around least privilege so automation can inspect node, guest, storage, backup, and recent-error state without receiving broad administrative access.
+
+<p align="center">
+  <img src="assets/screenshots/proxmox-overview.png" alt="Proxmox VE overview" width="78%" />
+</p>
+
 ### Jellyfin with GPU acceleration
 A Jellyfin VM with NVIDIA GPU passthrough, dedicated transcode/cache storage, and media presented from network storage.
+
+<p align="center">
+  <img src="assets/screenshots/jellyfin-dashboard.png" alt="Jellyfin media dashboard" width="78%" />
+</p>
 
 ### RomM + EmulatorJS
 A virtualized ROM-management stack backed by network storage, with browser-based emulation through EmulatorJS.
 
-### Proxmox read-only monitoring
-A small helper layer designed around least privilege so automation can inspect node, guest, storage, backup, and recent-error state without receiving broad administrative access.
+<p align="center">
+  <img src="assets/screenshots/romm-emulatorjs.png" alt="RomM and EmulatorJS game library" width="78%" />
+</p>
 
 ### Network segmentation
 A VLAN-oriented design separating trusted clients, IoT, media, server workloads, and child devices while keeping DNS and service access manageable.
