@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/screenshots/homelab-command-center.png" alt="BDLTech Homelab Command Center" width="100%" />
+</p>
+
 # BDLTech Homelab Showcase
 
 > A public, sanitized look at the systems, services, automation, and recovery practices behind the BDLTech homelab.
