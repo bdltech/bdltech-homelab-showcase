@@ -26,6 +26,10 @@ This repository is intentionally **documentation-first**. It shows the architect
 
 ## Architecture
 
+<p align="center">
+  <img src="assets/screenshots/network-hardware-overview.png" alt="BDLTech network and hardware overview" width="100%" />
+</p>
+
 ```mermaid
 flowchart TD
     Internet[Internet] --> Gateway[UniFi Gateway]
