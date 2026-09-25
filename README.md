@@ -78,6 +78,8 @@ This section stays intentionally high level. Serial numbers, MAC addresses, exac
 ### JARVIS-style Hermes Agent appliance
 A dedicated Hermes Agent VM with a custom JARVIS-inspired dashboard, read-only Proxmox telemetry, external service health monitoring, and recovery-focused customization tracking.
 
+[Read the Hermes/JARVIS build documentation](docs/hermes-jarvis.md).
+
 <p align="center">
   <img src="assets/screenshots/jarvis-hud.png" alt="JARVIS HUD" width="90%" />
 </p>
@@ -101,6 +103,8 @@ A Jellyfin VM with NVIDIA GPU passthrough, dedicated transcode/cache storage, an
 ### RomM + EmulatorJS
 A virtualized ROM-management stack backed by network storage, with browser-based emulation through EmulatorJS.
 
+[Read the RomM + EmulatorJS build documentation](docs/romm-emulatorjs.md).
+
 <p align="center">
   <img src="assets/screenshots/romm-emulatorjs.png" alt="RomM and EmulatorJS game library" width="78%" />
 </p>
@@ -108,8 +112,22 @@ A virtualized ROM-management stack backed by network storage, with browser-based
 ### Network segmentation
 A VLAN-oriented design separating trusted clients, IoT, media, server workloads, and child devices while keeping DNS and service access manageable.
 
+[Read the network design](docs/networking.md).
+
+### Remote access with Tailscale
+A dedicated Tailscale routing endpoint provides authenticated remote access without exposing individual management interfaces directly to the internet.
+
+[Read the Tailscale deployment documentation](docs/tailscale.md).
+
+### Network boot with netboot.xyz
+A dedicated network-boot service provides PXE/iPXE installation and recovery workflows.
+
+[Read the netboot.xyz deployment documentation](docs/netboot.md).
+
 ### Recovery-first documentation
 Infrastructure changes are documented alongside recovery notes, service maps, and validation checks so the environment can be rebuilt instead of remembered.
+
+[Read the recovery philosophy](docs/recovery-philosophy.md).
 
 ## Design Principles
 
@@ -122,11 +140,19 @@ Infrastructure changes are documented alongside recovery notes, service maps, an
 
 ## Repository Guide
 
+- [Documentation index](docs/README.md)
 - [Architecture overview](docs/architecture.md)
-- [Projects](docs/projects.md)
+- [Network design](docs/networking.md)
+- [Projects overview](docs/projects.md)
 - [Jellyfin build](docs/jellyfin.md)
+- [Hermes Agent + JARVIS HUD](docs/hermes-jarvis.md)
+- [RomM + EmulatorJS](docs/romm-emulatorjs.md)
+- [Tailscale remote access](docs/tailscale.md)
+- [netboot.xyz deployment](docs/netboot.md)
 - [Service catalog](docs/services.md)
+- [Recovery philosophy](docs/recovery-philosophy.md)
 - [Showcase roadmap](docs/roadmap.md)
+- [Changelog](CHANGELOG.md)
 - [Security and sanitization policy](SECURITY.md)
 - [Screenshot guide](assets/screenshots/README.md)
 - [Contributing / sanitization workflow](CONTRIBUTING.md)
