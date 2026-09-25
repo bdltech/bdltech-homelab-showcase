@@ -92,6 +92,8 @@ A small helper layer designed around least privilege so automation can inspect n
 ### Jellyfin with GPU acceleration
 A Jellyfin VM with NVIDIA GPU passthrough, dedicated transcode/cache storage, and media presented from network storage.
 
+[Read the Jellyfin build documentation](docs/jellyfin.md).
+
 <p align="center">
   <img src="assets/screenshots/jellyfin-dashboard.png" alt="Jellyfin media dashboard" width="78%" />
 </p>
@@ -122,6 +124,7 @@ Infrastructure changes are documented alongside recovery notes, service maps, an
 
 - [Architecture overview](docs/architecture.md)
 - [Projects](docs/projects.md)
+- [Jellyfin build](docs/jellyfin.md)
 - [Service catalog](docs/services.md)
 - [Showcase roadmap](docs/roadmap.md)
 - [Security and sanitization policy](SECURITY.md)
