@@ -140,6 +140,22 @@ The practical validation path is:
 4. inspect GPU activity with `nvidia-smi`
 5. verify playback remains stable on the client
 
+## Automation
+
+The operational deployment is backed by a reusable installer script in the private source-of-truth repository.
+
+The private installer handles the guest-side setup used for this build, including:
+
+- Jellyfin installation
+- NVIDIA driver setup
+- dedicated cache/transcode storage
+- metadata placement
+- read-only SMB media mounting
+- QEMU Guest Agent installation
+- final validation checks
+
+The public showcase intentionally does not publish the production installer because it contains environment-specific operational defaults. The public documentation instead records the architecture, validation flow, and recovery approach without exposing live infrastructure details.
+
 ## Recovery Checklist
 
 After rebuilding the VM:
