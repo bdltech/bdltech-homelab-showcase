@@ -15,6 +15,8 @@ Highlights:
 
 The goal is to make AI-assisted operations useful without granting unnecessary infrastructure control.
 
+[Full build guide](hermes-jarvis.md)
+
 ## Jellyfin Media Server
 
 Jellyfin runs in its own VM with GPU passthrough for hardware-accelerated transcoding.
@@ -27,6 +29,8 @@ Highlights:
 - network-backed media library
 - external health monitoring
 
+[Full build guide](jellyfin.md)
+
 ## RomM + EmulatorJS
 
 RomM manages game libraries while EmulatorJS provides browser-based emulation.
@@ -37,6 +41,8 @@ Highlights:
 - network-mounted ROM storage
 - browser playback
 - separation between application state and large content libraries
+
+[Full build guide](romm-emulatorjs.md)
 
 ## Proxmox Read-only Monitoring
 
@@ -57,13 +63,19 @@ No write actions are required for routine monitoring.
 
 A dedicated network-boot service provides PXE/iPXE workflows for imaging, recovery, and installation tasks.
 
+[Full deployment guide](netboot.md)
+
 ## Tailscale Remote Access
 
 Tailscale provides remote access to selected internal services and can support subnet-routing or exit-node use cases without exposing management interfaces directly.
 
+[Full remote-access guide](tailscale.md)
+
 ## Network and DNS
 
 The network design uses segmentation and centralized DNS filtering to keep client classes separate while preserving manageable access to shared services.
+
+[Network design](networking.md)
 
 ## Documentation and Recovery
 
@@ -78,3 +90,5 @@ The private repository tracks:
 - maintenance notes
 
 This public showcase intentionally keeps only sanitized, non-sensitive material.
+
+[Recovery philosophy](recovery-philosophy.md)
