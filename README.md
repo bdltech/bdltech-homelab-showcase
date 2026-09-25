@@ -59,6 +59,20 @@ flowchart TD
 
 The diagram is intentionally logical rather than literal. Private addressing, credentials, host-specific recovery data, and security-sensitive details are omitted.
 
+## Hardware Overview
+
+| Component | Role |
+|---|---|
+| Proxmox VE host | Runs the primary virtual machines and containers |
+| TrueNAS SCALE | Central storage for media, ROM libraries, backups, and shared data |
+| UniFi Fiber Gateway | Main gateway, routing, firewalling, DHCP, and VLAN control |
+| Managed 10G switching | High-speed LAN connectivity and network segmentation |
+| GL.iNet Flint 2 | Wireless access point |
+| Raspberry Pi 5 | AdGuard Home DNS filtering |
+| NVIDIA RTX 4060 | Hardware acceleration for Jellyfin transcoding |
+
+This section stays intentionally high level. Serial numbers, MAC addresses, exact hardware identifiers, and internal addressing remain private.
+
 ## Featured Projects
 
 ### JARVIS-style Hermes Agent appliance
