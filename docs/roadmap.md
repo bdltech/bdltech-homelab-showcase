@@ -11,14 +11,17 @@
 
 ## Next
 
-- [ ] Add sanitized JARVIS HUD screenshot
-- [ ] Add sanitized Proxmox overview
-- [ ] Add sanitized Jellyfin dashboard
-- [ ] Add sanitized RomM / EmulatorJS screenshot
-- [ ] Add a simplified network topology graphic
-- [ ] Add short build notes for selected projects
+- [x] Add sanitized JARVIS HUD screenshot
+- [x] Add sanitized Proxmox overview
+- [x] Add sanitized Jellyfin dashboard
+- [x] Add sanitized RomM / EmulatorJS screenshot
+- [x] Add a network and hardware overview graphic
+- [x] Add public build guides for major services
 
 ## Later
+
+- [ ] Add TrueNAS storage overview
+- [ ] Add AdGuard Home / DNS design guide
 
 - [ ] Add hardware overview without serial numbers or unique identifiers
 - [ ] Add before/after recovery examples
